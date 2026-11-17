@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "tanggal": "2026-11-16",
+    "hari": "Senin",
+    "candle_class": "BULL_RANGE",
+    "ohlc_seq": "OLHC",
+    "d1_range": 50.0,
+    "prob_sameday": 86.0,
+    "kategori": "SEDANG",
+    "ci95": [
+      59.3,
+      96.3
+    ],
+    "n_samples": 13,
+    "expected_mae": 11.0,
+    "expected_time_min": 15,
+    "aktual_tp": null,
+    "aktual_menit": null,
+    "timestamp": "2026-11-16T11:51:20.188872"
+  }
+]

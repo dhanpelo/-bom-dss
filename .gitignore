@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit local cache
+.streamlit/secrets.toml
+
+# Local bat files (tidak perlu di cloud)
+run_app.bat
+run_wifi.bat
+deploy_hp.bat
+
+# Predictions local (opsional — hapus # kalau mau predictions ikut di repo)
+# predictions/history.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

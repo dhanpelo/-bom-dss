@@ -1,0 +1,1358 @@
+{
+  "global": {
+    "n": 435,
+    "n_tp": 403,
+    "sameday_pct": 92.6,
+    "overnight_pct": 7.4,
+    "insta_30m_pct": 55.4,
+    "insta_60m_pct": 67.6,
+    "avg_mae": 10.3,
+    "med_mae": 3.36,
+    "avg_time_min": 93.2,
+    "ci95": [
+      89.8,
+      94.7
+    ],
+    "date_range": [
+      "2025-01-03",
+      "2026-09-07"
+    ]
+  },
+  "by_day": {
+    "Senin": {
+      "n": 88,
+      "sameday_pct": 93.2,
+      "overnight_pct": 6.8,
+      "insta_30m_pct": 55.7,
+      "insta_60m_pct": 65.9,
+      "avg_mae": 11.44,
+      "med_mae": 4.19,
+      "avg_time_min": 93,
+      "ci95": [
+        85.9,
+        96.8
+      ]
+    },
+    "Selasa": {
+      "n": 87,
+      "sameday_pct": 92.0,
+      "overnight_pct": 8.0,
+      "insta_30m_pct": 59.8,
+      "insta_60m_pct": 79.3,
+      "avg_mae": 9.15,
+      "med_mae": 1.7,
+      "avg_time_min": 43,
+      "ci95": [
+        84.4,
+        96.1
+      ]
+    },
+    "Rabu": {
+      "n": 87,
+      "sameday_pct": 93.1,
+      "overnight_pct": 6.9,
+      "insta_30m_pct": 58.6,
+      "insta_60m_pct": 64.4,
+      "avg_mae": 10.85,
+      "med_mae": 3.73,
+      "avg_time_min": 110,
+      "ci95": [
+        85.8,
+        96.8
+      ]
+    },
+    "Kamis": {
+      "n": 87,
+      "sameday_pct": 89.7,
+      "overnight_pct": 10.3,
+      "insta_30m_pct": 57.5,
+      "insta_60m_pct": 65.5,
+      "avg_mae": 11.24,
+      "med_mae": 3.36,
+      "avg_time_min": 100,
+      "ci95": [
+        81.5,
+        94.5
+      ]
+    },
+    "Jumat": {
+      "n": 86,
+      "sameday_pct": 95.3,
+      "overnight_pct": 4.7,
+      "insta_30m_pct": 45.3,
+      "insta_60m_pct": 62.8,
+      "avg_mae": 8.81,
+      "med_mae": 3.26,
+      "avg_time_min": 118,
+      "ci95": [
+        88.6,
+        98.1
+      ]
+    }
+  },
+  "by_candle_class": {
+    "BULL_BREAK": {
+      "n": 132,
+      "sameday_pct": 92.4,
+      "insta_30m_pct": 55.3,
+      "insta_60m_pct": 67.4,
+      "avg_mae": 9.32,
+      "med_mae": 3.16,
+      "avg_time_min": 101,
+      "ci95": [
+        86.6,
+        95.8
+      ]
+    },
+    "BULL_RANGE": {
+      "n": 72,
+      "sameday_pct": 90.3,
+      "insta_30m_pct": 50.0,
+      "insta_60m_pct": 68.1,
+      "avg_mae": 9.36,
+      "med_mae": 2.96,
+      "avg_time_min": 62,
+      "ci95": [
+        81.3,
+        95.2
+      ]
+    },
+    "INSIDE": {
+      "n": 65,
+      "sameday_pct": 92.3,
+      "insta_30m_pct": 60.0,
+      "insta_60m_pct": 70.8,
+      "avg_mae": 10.88,
+      "med_mae": 1.76,
+      "avg_time_min": 68,
+      "ci95": [
+        83.2,
+        96.7
+      ]
+    },
+    "BEAR_RANGE": {
+      "n": 86,
+      "sameday_pct": 91.9,
+      "insta_30m_pct": 50.0,
+      "insta_60m_pct": 60.5,
+      "avg_mae": 11.48,
+      "med_mae": 3.82,
+      "avg_time_min": 140,
+      "ci95": [
+        84.2,
+        96.0
+      ]
+    },
+    "BEAR_BREAK": {
+      "n": 80,
+      "sameday_pct": 96.2,
+      "insta_30m_pct": 62.5,
+      "insta_60m_pct": 72.5,
+      "avg_mae": 11.03,
+      "med_mae": 3.79,
+      "avg_time_min": 79,
+      "ci95": [
+        89.5,
+        98.7
+      ]
+    }
+  },
+  "by_combo": {
+    "Senin_BEAR_BREAK_OHLC": {
+      "hari": "Senin",
+      "candle_class": "BEAR_BREAK",
+      "ohlc_seq": "OHLC",
+      "n": 15,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 53.3,
+      "tp_1h_pct": 53.3,
+      "tp_2h_pct": 80.0,
+      "tp_4h_pct": 80.0,
+      "avg_mae": 11.79,
+      "med_mae": 7.17,
+      "avg_time_min": 125,
+      "ci95": [
+        79.6,
+        100
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": true
+    },
+    "Senin_INSIDE_OLHC": {
+      "hari": "Senin",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OLHC",
+      "n": 10,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 70.0,
+      "tp_1h_pct": 70.0,
+      "tp_2h_pct": 90.0,
+      "tp_4h_pct": 90.0,
+      "avg_mae": 11.61,
+      "med_mae": 6.12,
+      "avg_time_min": 127,
+      "ci95": [
+        72.2,
+        100
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": true
+    },
+    "Selasa_BEAR_BREAK_OHLC": {
+      "hari": "Selasa",
+      "candle_class": "BEAR_BREAK",
+      "ohlc_seq": "OHLC",
+      "n": 12,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 66.7,
+      "tp_1h_pct": 83.3,
+      "tp_2h_pct": 91.7,
+      "tp_4h_pct": 91.7,
+      "avg_mae": 4.92,
+      "med_mae": 1.8,
+      "avg_time_min": 85,
+      "ci95": [
+        75.7,
+        100
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": true
+    },
+    "Selasa_INSIDE_OLHC": {
+      "hari": "Selasa",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OLHC",
+      "n": 5,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 40.0,
+      "tp_1h_pct": 60.0,
+      "tp_2h_pct": 80.0,
+      "tp_4h_pct": 100.0,
+      "avg_mae": 3.31,
+      "med_mae": 1.76,
+      "avg_time_min": 61,
+      "ci95": [
+        56.6,
+        100
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": true
+    },
+    "Jumat_BEAR_RANGE_OLHC": {
+      "hari": "Jumat",
+      "candle_class": "BEAR_RANGE",
+      "ohlc_seq": "OLHC",
+      "n": 4,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 50.0,
+      "tp_1h_pct": 75.0,
+      "tp_2h_pct": 75.0,
+      "tp_4h_pct": 75.0,
+      "avg_mae": 7.28,
+      "med_mae": 2.0,
+      "avg_time_min": 234,
+      "ci95": [
+        51.0,
+        100
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": true
+    },
+    "Rabu_INSIDE_OHLC": {
+      "hari": "Rabu",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OHLC",
+      "n": 5,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 80.0,
+      "tp_1h_pct": 80.0,
+      "tp_2h_pct": 100.0,
+      "tp_4h_pct": 100.0,
+      "avg_mae": 3.63,
+      "med_mae": 3.73,
+      "avg_time_min": 20,
+      "ci95": [
+        56.6,
+        100
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": true
+    },
+    "Jumat_INSIDE_OLHC": {
+      "hari": "Jumat",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OLHC",
+      "n": 7,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "tp_30m_pct": 71.4,
+      "tp_1h_pct": 85.7,
+      "tp_2h_pct": 85.7,
+      "tp_4h_pct": 85.7,
+      "avg_mae": 2.78,
+      "med_mae": 0.68,
+      "avg_time_min": 127,
+      "ci95": [
+        64.6,
+        100
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": true
+    },
+    "Rabu_BEAR_BREAK_OHLC": {
+      "hari": "Rabu",
+      "candle_class": "BEAR_BREAK",
+      "ohlc_seq": "OHLC",
+      "n": 21,
+      "sameday_pct": 95.2,
+      "overnight_pct": 4.8,
+      "tp_30m_pct": 76.2,
+      "tp_1h_pct": 81.0,
+      "tp_2h_pct": 95.2,
+      "tp_4h_pct": 95.2,
+      "avg_mae": 11.68,
+      "med_mae": 2.36,
+      "avg_time_min": 24,
+      "ci95": [
+        77.3,
+        99.1
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Jumat_BEAR_RANGE_OHLC": {
+      "hari": "Jumat",
+      "candle_class": "BEAR_RANGE",
+      "ohlc_seq": "OHLC",
+      "n": 21,
+      "sameday_pct": 95.2,
+      "overnight_pct": 4.8,
+      "tp_30m_pct": 38.1,
+      "tp_1h_pct": 47.6,
+      "tp_2h_pct": 66.7,
+      "tp_4h_pct": 76.2,
+      "avg_mae": 10.04,
+      "med_mae": 3.76,
+      "avg_time_min": 156,
+      "ci95": [
+        77.3,
+        99.1
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Jumat_BEAR_BREAK_OHLC": {
+      "hari": "Jumat",
+      "candle_class": "BEAR_BREAK",
+      "ohlc_seq": "OHLC",
+      "n": 18,
+      "sameday_pct": 94.4,
+      "overnight_pct": 5.6,
+      "tp_30m_pct": 61.1,
+      "tp_1h_pct": 77.8,
+      "tp_2h_pct": 88.9,
+      "tp_4h_pct": 88.9,
+      "avg_mae": 10.33,
+      "med_mae": 1.8,
+      "avg_time_min": 64,
+      "ci95": [
+        74.2,
+        99.0
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Jumat_BULL_BREAK_OLHC": {
+      "hari": "Jumat",
+      "candle_class": "BULL_BREAK",
+      "ohlc_seq": "OLHC",
+      "n": 17,
+      "sameday_pct": 94.1,
+      "overnight_pct": 5.9,
+      "tp_30m_pct": 35.3,
+      "tp_1h_pct": 47.1,
+      "tp_2h_pct": 64.7,
+      "tp_4h_pct": 76.5,
+      "avg_mae": 7.08,
+      "med_mae": 4.95,
+      "avg_time_min": 143,
+      "ci95": [
+        73.0,
+        98.9
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Selasa_BULL_RANGE_OLHC": {
+      "hari": "Selasa",
+      "candle_class": "BULL_RANGE",
+      "ohlc_seq": "OLHC",
+      "n": 15,
+      "sameday_pct": 93.3,
+      "overnight_pct": 6.7,
+      "tp_30m_pct": 66.7,
+      "tp_1h_pct": 86.7,
+      "tp_2h_pct": 93.3,
+      "tp_4h_pct": 93.3,
+      "avg_mae": 7.99,
+      "med_mae": 0.95,
+      "avg_time_min": 19,
+      "ci95": [
+        70.1,
+        98.8
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Selasa_BULL_BREAK_OLHC": {
+      "hari": "Selasa",
+      "candle_class": "BULL_BREAK",
+      "ohlc_seq": "OLHC",
+      "n": 28,
+      "sameday_pct": 92.9,
+      "overnight_pct": 7.1,
+      "tp_30m_pct": 53.6,
+      "tp_1h_pct": 78.6,
+      "tp_2h_pct": 82.1,
+      "tp_4h_pct": 89.3,
+      "avg_mae": 8.12,
+      "med_mae": 3.14,
+      "avg_time_min": 50,
+      "ci95": [
+        77.4,
+        98.0
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Rabu_BULL_BREAK_OLHC": {
+      "hari": "Rabu",
+      "candle_class": "BULL_BREAK",
+      "ohlc_seq": "OLHC",
+      "n": 27,
+      "sameday_pct": 92.6,
+      "overnight_pct": 7.4,
+      "tp_30m_pct": 63.0,
+      "tp_1h_pct": 66.7,
+      "tp_2h_pct": 77.8,
+      "tp_4h_pct": 81.5,
+      "avg_mae": 8.63,
+      "med_mae": 2.01,
+      "avg_time_min": 127,
+      "ci95": [
+        76.6,
+        97.9
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Kamis_BEAR_RANGE_OHLC": {
+      "hari": "Kamis",
+      "candle_class": "BEAR_RANGE",
+      "ohlc_seq": "OHLC",
+      "n": 13,
+      "sameday_pct": 92.3,
+      "overnight_pct": 7.7,
+      "tp_30m_pct": 61.5,
+      "tp_1h_pct": 69.2,
+      "tp_2h_pct": 76.9,
+      "tp_4h_pct": 76.9,
+      "avg_mae": 11.38,
+      "med_mae": 3.99,
+      "avg_time_min": 139,
+      "ci95": [
+        66.7,
+        98.6
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Kamis_BEAR_BREAK_OHLC": {
+      "hari": "Kamis",
+      "candle_class": "BEAR_BREAK",
+      "ohlc_seq": "OHLC",
+      "n": 13,
+      "sameday_pct": 92.3,
+      "overnight_pct": 7.7,
+      "tp_30m_pct": 46.2,
+      "tp_1h_pct": 61.5,
+      "tp_2h_pct": 76.9,
+      "tp_4h_pct": 76.9,
+      "avg_mae": 16.41,
+      "med_mae": 5.47,
+      "avg_time_min": 134,
+      "ci95": [
+        66.7,
+        98.6
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Jumat_BULL_RANGE_OLHC": {
+      "hari": "Jumat",
+      "candle_class": "BULL_RANGE",
+      "ohlc_seq": "OLHC",
+      "n": 13,
+      "sameday_pct": 92.3,
+      "overnight_pct": 7.7,
+      "tp_30m_pct": 23.1,
+      "tp_1h_pct": 61.5,
+      "tp_2h_pct": 76.9,
+      "tp_4h_pct": 84.6,
+      "avg_mae": 13.74,
+      "med_mae": 8.56,
+      "avg_time_min": 102,
+      "ci95": [
+        66.7,
+        98.6
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Senin_BULL_BREAK_OLHC": {
+      "hari": "Senin",
+      "candle_class": "BULL_BREAK",
+      "ohlc_seq": "OLHC",
+      "n": 25,
+      "sameday_pct": 92.0,
+      "overnight_pct": 8.0,
+      "tp_30m_pct": 56.0,
+      "tp_1h_pct": 64.0,
+      "tp_2h_pct": 76.0,
+      "tp_4h_pct": 76.0,
+      "avg_mae": 13.28,
+      "med_mae": 4.65,
+      "avg_time_min": 92,
+      "ci95": [
+        75.0,
+        97.8
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Rabu_BEAR_RANGE_OHLC": {
+      "hari": "Rabu",
+      "candle_class": "BEAR_RANGE",
+      "ohlc_seq": "OHLC",
+      "n": 12,
+      "sameday_pct": 91.7,
+      "overnight_pct": 8.3,
+      "tp_30m_pct": 50.0,
+      "tp_1h_pct": 50.0,
+      "tp_2h_pct": 58.3,
+      "tp_4h_pct": 75.0,
+      "avg_mae": 14.58,
+      "med_mae": 8.92,
+      "avg_time_min": 216,
+      "ci95": [
+        64.7,
+        98.5
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Senin_BEAR_RANGE_OHLC": {
+      "hari": "Senin",
+      "candle_class": "BEAR_RANGE",
+      "ohlc_seq": "OHLC",
+      "n": 12,
+      "sameday_pct": 91.7,
+      "overnight_pct": 8.3,
+      "tp_30m_pct": 58.3,
+      "tp_1h_pct": 66.7,
+      "tp_2h_pct": 75.0,
+      "tp_4h_pct": 83.3,
+      "avg_mae": 9.92,
+      "med_mae": 3.28,
+      "avg_time_min": 80,
+      "ci95": [
+        64.7,
+        98.5
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Rabu_BULL_RANGE_OLHC": {
+      "hari": "Rabu",
+      "candle_class": "BULL_RANGE",
+      "ohlc_seq": "OLHC",
+      "n": 10,
+      "sameday_pct": 90.0,
+      "overnight_pct": 10.0,
+      "tp_30m_pct": 50.0,
+      "tp_1h_pct": 50.0,
+      "tp_2h_pct": 70.0,
+      "tp_4h_pct": 90.0,
+      "avg_mae": 5.28,
+      "med_mae": 3.68,
+      "avg_time_min": 62,
+      "ci95": [
+        59.6,
+        98.2
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Senin_INSIDE_OHLC": {
+      "hari": "Senin",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OHLC",
+      "n": 9,
+      "sameday_pct": 88.9,
+      "overnight_pct": 11.1,
+      "tp_30m_pct": 44.4,
+      "tp_1h_pct": 55.6,
+      "tp_2h_pct": 66.7,
+      "tp_4h_pct": 77.8,
+      "avg_mae": 9.71,
+      "med_mae": 5.3,
+      "avg_time_min": 75,
+      "ci95": [
+        56.5,
+        98.0
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": false
+    },
+    "Kamis_BULL_BREAK_OLHC": {
+      "hari": "Kamis",
+      "candle_class": "BULL_BREAK",
+      "ohlc_seq": "OLHC",
+      "n": 27,
+      "sameday_pct": 88.9,
+      "overnight_pct": 11.1,
+      "tp_30m_pct": 66.7,
+      "tp_1h_pct": 70.4,
+      "tp_2h_pct": 74.1,
+      "tp_4h_pct": 77.8,
+      "avg_mae": 8.46,
+      "med_mae": 2.47,
+      "avg_time_min": 94,
+      "ci95": [
+        72.0,
+        96.2
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Selasa_BEAR_RANGE_OHLC": {
+      "hari": "Selasa",
+      "candle_class": "BEAR_RANGE",
+      "ohlc_seq": "OHLC",
+      "n": 15,
+      "sameday_pct": 86.7,
+      "overnight_pct": 13.3,
+      "tp_30m_pct": 53.3,
+      "tp_1h_pct": 73.3,
+      "tp_2h_pct": 80.0,
+      "tp_4h_pct": 86.7,
+      "avg_mae": 8.31,
+      "med_mae": 2.71,
+      "avg_time_min": 38,
+      "ci95": [
+        62.2,
+        96.3
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Kamis_BULL_RANGE_OLHC": {
+      "hari": "Kamis",
+      "candle_class": "BULL_RANGE",
+      "ohlc_seq": "OLHC",
+      "n": 14,
+      "sameday_pct": 85.7,
+      "overnight_pct": 14.3,
+      "tp_30m_pct": 35.7,
+      "tp_1h_pct": 42.9,
+      "tp_2h_pct": 57.1,
+      "tp_4h_pct": 71.4,
+      "avg_mae": 10.06,
+      "med_mae": 4.28,
+      "avg_time_min": 139,
+      "ci95": [
+        60.0,
+        96.0
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Selasa_INSIDE_OHLC": {
+      "hari": "Selasa",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OHLC",
+      "n": 7,
+      "sameday_pct": 85.7,
+      "overnight_pct": 14.3,
+      "tp_30m_pct": 71.4,
+      "tp_1h_pct": 85.7,
+      "tp_2h_pct": 85.7,
+      "tp_4h_pct": 85.7,
+      "avg_mae": 21.39,
+      "med_mae": 0.0,
+      "avg_time_min": 12,
+      "ci95": [
+        48.7,
+        97.4
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": false
+    },
+    "Rabu_INSIDE_OLHC": {
+      "hari": "Rabu",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OLHC",
+      "n": 7,
+      "sameday_pct": 85.7,
+      "overnight_pct": 14.3,
+      "tp_30m_pct": 28.6,
+      "tp_1h_pct": 57.1,
+      "tp_2h_pct": 71.4,
+      "tp_4h_pct": 71.4,
+      "avg_mae": 15.27,
+      "med_mae": 5.68,
+      "avg_time_min": 85,
+      "ci95": [
+        48.7,
+        97.4
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": false
+    },
+    "Kamis_INSIDE_OHLC": {
+      "hari": "Kamis",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OHLC",
+      "n": 7,
+      "sameday_pct": 85.7,
+      "overnight_pct": 14.3,
+      "tp_30m_pct": 71.4,
+      "tp_1h_pct": 71.4,
+      "tp_2h_pct": 85.7,
+      "tp_4h_pct": 85.7,
+      "avg_mae": 12.4,
+      "med_mae": 2.15,
+      "avg_time_min": 20,
+      "ci95": [
+        48.7,
+        97.4
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": false
+    },
+    "Senin_BULL_RANGE_OLHC": {
+      "hari": "Senin",
+      "candle_class": "BULL_RANGE",
+      "ohlc_seq": "OLHC",
+      "n": 13,
+      "sameday_pct": 84.6,
+      "overnight_pct": 15.4,
+      "tp_30m_pct": 61.5,
+      "tp_1h_pct": 84.6,
+      "tp_2h_pct": 84.6,
+      "tp_4h_pct": 84.6,
+      "avg_mae": 10.58,
+      "med_mae": 2.39,
+      "avg_time_min": 15,
+      "ci95": [
+        57.7,
+        95.7
+      ],
+      "data_adequate": true,
+      "warning": null,
+      "is_100pct": false
+    },
+    "Kamis_INSIDE_OLHC": {
+      "hari": "Kamis",
+      "candle_class": "INSIDE",
+      "ohlc_seq": "OLHC",
+      "n": 6,
+      "sameday_pct": 83.3,
+      "overnight_pct": 16.7,
+      "tp_30m_pct": 66.7,
+      "tp_1h_pct": 66.7,
+      "tp_2h_pct": 66.7,
+      "tp_4h_pct": 83.3,
+      "avg_mae": 16.54,
+      "med_mae": 2.24,
+      "avg_time_min": 34,
+      "ci95": [
+        43.6,
+        97.0
+      ],
+      "data_adequate": false,
+      "warning": "SAMPEL TERBATAS (n<10)",
+      "is_100pct": false
+    }
+  },
+  "by_range_bucket": {
+    "lt30": {
+      "label": "< 30 pts",
+      "range_min": 0,
+      "range_max": 30,
+      "n": 37,
+      "sameday_pct": 97.3,
+      "overnight_pct": 2.7,
+      "insta_30m_pct": 29.7,
+      "insta_60m_pct": 40.5,
+      "avg_mae": 7.11,
+      "med_mae": 2.36,
+      "avg_time_min": 229.9,
+      "ci95": [
+        86.2,
+        99.5
+      ]
+    },
+    "30to50": {
+      "label": "30–50 pts",
+      "range_min": 30,
+      "range_max": 50,
+      "n": 95,
+      "sameday_pct": 86.3,
+      "overnight_pct": 13.7,
+      "insta_30m_pct": 28.4,
+      "insta_60m_pct": 45.3,
+      "avg_mae": 10.28,
+      "med_mae": 4.09,
+      "avg_time_min": 139.0,
+      "ci95": [
+        78.0,
+        91.8
+      ]
+    },
+    "50to75": {
+      "label": "50–75 pts",
+      "range_min": 50,
+      "range_max": 75,
+      "n": 105,
+      "sameday_pct": 90.5,
+      "overnight_pct": 9.5,
+      "insta_30m_pct": 59.0,
+      "insta_60m_pct": 68.6,
+      "avg_mae": 11.71,
+      "med_mae": 1.76,
+      "avg_time_min": 99.0,
+      "ci95": [
+        83.4,
+        94.7
+      ]
+    },
+    "75to100": {
+      "label": "75–100 pts",
+      "range_min": 75,
+      "range_max": 100,
+      "n": 77,
+      "sameday_pct": 94.8,
+      "overnight_pct": 5.2,
+      "insta_30m_pct": 64.9,
+      "insta_60m_pct": 79.2,
+      "avg_mae": 9.72,
+      "med_mae": 4.03,
+      "avg_time_min": 45.2,
+      "ci95": [
+        87.4,
+        98.0
+      ]
+    },
+    "100to150": {
+      "label": "100–150 pts",
+      "range_min": 100,
+      "range_max": 150,
+      "n": 74,
+      "sameday_pct": 94.6,
+      "overnight_pct": 5.4,
+      "insta_30m_pct": 71.6,
+      "insta_60m_pct": 81.1,
+      "avg_mae": 11.63,
+      "med_mae": 3.7,
+      "avg_time_min": 52.0,
+      "ci95": [
+        86.9,
+        97.9
+      ]
+    },
+    "150to200": {
+      "label": "150–200 pts",
+      "range_min": 150,
+      "range_max": 200,
+      "n": 23,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "insta_30m_pct": 69.6,
+      "insta_60m_pct": 82.6,
+      "avg_mae": 10.1,
+      "med_mae": 2.92,
+      "avg_time_min": 57.8,
+      "ci95": [
+        85.7,
+        100
+      ]
+    },
+    "gt200": {
+      "label": "> 200 pts",
+      "range_min": 200,
+      "range_max": 9999,
+      "n": 24,
+      "sameday_pct": 100.0,
+      "overnight_pct": 0.0,
+      "insta_30m_pct": 91.7,
+      "insta_60m_pct": 100.0,
+      "avg_mae": 7.18,
+      "med_mae": 2.16,
+      "avg_time_min": 8.4,
+      "ci95": [
+        86.2,
+        100
+      ]
+    }
+  },
+  "by_day_class": {
+    "Kamis_INSIDE": {
+      "hari": "Kamis",
+      "candle_class_label": "Inside Bar",
+      "n": 13,
+      "sameday_pct": 84.6,
+      "insta_30m_pct": 46.2,
+      "avg_mae": 14.31,
+      "avg_time_min": 26,
+      "ci95": [
+        57.7,
+        95.7
+      ],
+      "data_adequate": true
+    },
+    "Jumat_INSIDE": {
+      "hari": "Jumat",
+      "candle_class_label": "Inside Bar",
+      "n": 9,
+      "sameday_pct": 100.0,
+      "insta_30m_pct": 44.4,
+      "avg_mae": 2.96,
+      "avg_time_min": 107,
+      "ci95": [
+        70.1,
+        100
+      ],
+      "data_adequate": false
+    },
+    "Selasa_INSIDE": {
+      "hari": "Selasa",
+      "candle_class_label": "Inside Bar",
+      "n": 12,
+      "sameday_pct": 91.7,
+      "insta_30m_pct": 41.7,
+      "avg_mae": 13.86,
+      "avg_time_min": 34,
+      "ci95": [
+        64.7,
+        98.5
+      ],
+      "data_adequate": true
+    },
+    "Jumat_BEAR_BREAK": {
+      "hari": "Jumat",
+      "candle_class_label": "Bear Break",
+      "n": 18,
+      "sameday_pct": 94.4,
+      "insta_30m_pct": 38.9,
+      "avg_mae": 10.33,
+      "avg_time_min": 64,
+      "ci95": [
+        74.2,
+        99.0
+      ],
+      "data_adequate": true
+    },
+    "Senin_BULL_RANGE": {
+      "hari": "Senin",
+      "candle_class_label": "Bull Range",
+      "n": 13,
+      "sameday_pct": 84.6,
+      "insta_30m_pct": 38.5,
+      "avg_mae": 10.58,
+      "avg_time_min": 15,
+      "ci95": [
+        57.7,
+        95.7
+      ],
+      "data_adequate": true
+    },
+    "Selasa_BEAR_BREAK": {
+      "hari": "Selasa",
+      "candle_class_label": "Bear Break",
+      "n": 13,
+      "sameday_pct": 100.0,
+      "insta_30m_pct": 38.5,
+      "avg_mae": 4.71,
+      "avg_time_min": 78,
+      "ci95": [
+        77.2,
+        100
+      ],
+      "data_adequate": true
+    },
+    "Selasa_BEAR_RANGE": {
+      "hari": "Selasa",
+      "candle_class_label": "Bear Range",
+      "n": 17,
+      "sameday_pct": 82.4,
+      "insta_30m_pct": 35.3,
+      "avg_mae": 11.36,
+      "avg_time_min": 35,
+      "ci95": [
+        59.0,
+        93.8
+      ],
+      "data_adequate": true
+    },
+    "Kamis_BEAR_RANGE": {
+      "hari": "Kamis",
+      "candle_class_label": "Bear Range",
+      "n": 15,
+      "sameday_pct": 93.3,
+      "insta_30m_pct": 33.3,
+      "avg_mae": 11.81,
+      "avg_time_min": 133,
+      "ci95": [
+        70.1,
+        98.8
+      ],
+      "data_adequate": true
+    },
+    "Selasa_BULL_RANGE": {
+      "hari": "Selasa",
+      "candle_class_label": "Bull Range",
+      "n": 16,
+      "sameday_pct": 93.8,
+      "insta_30m_pct": 31.2,
+      "avg_mae": 9.28,
+      "avg_time_min": 18,
+      "ci95": [
+        71.7,
+        98.9
+      ],
+      "data_adequate": true
+    },
+    "Kamis_BULL_RANGE": {
+      "hari": "Kamis",
+      "candle_class_label": "Bull Range",
+      "n": 17,
+      "sameday_pct": 88.2,
+      "insta_30m_pct": 29.4,
+      "avg_mae": 8.95,
+      "avg_time_min": 115,
+      "ci95": [
+        65.6,
+        96.7
+      ],
+      "data_adequate": true
+    },
+    "Kamis_BULL_BREAK": {
+      "hari": "Kamis",
+      "candle_class_label": "Bull Break",
+      "n": 29,
+      "sameday_pct": 89.7,
+      "insta_30m_pct": 27.6,
+      "avg_mae": 8.59,
+      "avg_time_min": 89,
+      "ci95": [
+        73.7,
+        96.4
+      ],
+      "data_adequate": true
+    },
+    "Senin_BULL_BREAK": {
+      "hari": "Senin",
+      "candle_class_label": "Bull Break",
+      "n": 26,
+      "sameday_pct": 92.3,
+      "insta_30m_pct": 26.9,
+      "avg_mae": 12.89,
+      "avg_time_min": 89,
+      "ci95": [
+        75.8,
+        97.9
+      ],
+      "data_adequate": true
+    },
+    "Senin_BEAR_RANGE": {
+      "hari": "Senin",
+      "candle_class_label": "Bear Range",
+      "n": 15,
+      "sameday_pct": 93.3,
+      "insta_30m_pct": 26.7,
+      "avg_mae": 10.25,
+      "avg_time_min": 114,
+      "ci95": [
+        70.1,
+        98.8
+      ],
+      "data_adequate": true
+    },
+    "Senin_INSIDE": {
+      "hari": "Senin",
+      "candle_class_label": "Inside Bar",
+      "n": 19,
+      "sameday_pct": 94.7,
+      "insta_30m_pct": 26.3,
+      "avg_mae": 10.71,
+      "avg_time_min": 104,
+      "ci95": [
+        75.3,
+        99.1
+      ],
+      "data_adequate": true
+    },
+    "Rabu_INSIDE": {
+      "hari": "Rabu",
+      "candle_class_label": "Inside Bar",
+      "n": 12,
+      "sameday_pct": 91.7,
+      "insta_30m_pct": 25.0,
+      "avg_mae": 10.42,
+      "avg_time_min": 56,
+      "ci95": [
+        64.7,
+        98.5
+      ],
+      "data_adequate": true
+    },
+    "Jumat_BEAR_RANGE": {
+      "hari": "Jumat",
+      "candle_class_label": "Bear Range",
+      "n": 25,
+      "sameday_pct": 96.0,
+      "insta_30m_pct": 20.0,
+      "avg_mae": 9.6,
+      "avg_time_min": 169,
+      "ci95": [
+        80.5,
+        99.3
+      ],
+      "data_adequate": true
+    },
+    "Rabu_BULL_RANGE": {
+      "hari": "Rabu",
+      "candle_class_label": "Bull Range",
+      "n": 10,
+      "sameday_pct": 90.0,
+      "insta_30m_pct": 20.0,
+      "avg_mae": 5.28,
+      "avg_time_min": 62,
+      "ci95": [
+        59.6,
+        98.2
+      ],
+      "data_adequate": true
+    },
+    "Rabu_BULL_BREAK": {
+      "hari": "Rabu",
+      "candle_class_label": "Bull Break",
+      "n": 30,
+      "sameday_pct": 93.3,
+      "insta_30m_pct": 20.0,
+      "avg_mae": 9.91,
+      "avg_time_min": 151,
+      "ci95": [
+        78.6,
+        98.1
+      ],
+      "data_adequate": true
+    },
+    "Rabu_BEAR_BREAK": {
+      "hari": "Rabu",
+      "candle_class_label": "Bear Break",
+      "n": 21,
+      "sameday_pct": 95.2,
+      "insta_30m_pct": 19.0,
+      "avg_mae": 11.68,
+      "avg_time_min": 24,
+      "ci95": [
+        77.3,
+        99.1
+      ],
+      "data_adequate": true
+    },
+    "Selasa_BULL_BREAK": {
+      "hari": "Selasa",
+      "candle_class_label": "Bull Break",
+      "n": 29,
+      "sameday_pct": 93.1,
+      "insta_30m_pct": 17.2,
+      "avg_mae": 7.84,
+      "avg_time_min": 48,
+      "ci95": [
+        78.0,
+        98.1
+      ],
+      "data_adequate": true
+    },
+    "Senin_BEAR_BREAK": {
+      "hari": "Senin",
+      "candle_class_label": "Bear Break",
+      "n": 15,
+      "sameday_pct": 100.0,
+      "insta_30m_pct": 13.3,
+      "avg_mae": 11.79,
+      "avg_time_min": 125,
+      "ci95": [
+        79.6,
+        100
+      ],
+      "data_adequate": true
+    },
+    "Jumat_BULL_BREAK": {
+      "hari": "Jumat",
+      "candle_class_label": "Bull Break",
+      "n": 18,
+      "sameday_pct": 94.4,
+      "insta_30m_pct": 11.1,
+      "avg_mae": 6.78,
+      "avg_time_min": 136,
+      "ci95": [
+        74.2,
+        99.0
+      ],
+      "data_adequate": true
+    },
+    "Kamis_BEAR_BREAK": {
+      "hari": "Kamis",
+      "candle_class_label": "Bear Break",
+      "n": 13,
+      "sameday_pct": 92.3,
+      "insta_30m_pct": 7.7,
+      "avg_mae": 16.41,
+      "avg_time_min": 134,
+      "ci95": [
+        66.7,
+        98.6
+      ],
+      "data_adequate": true
+    },
+    "Rabu_BEAR_RANGE": {
+      "hari": "Rabu",
+      "candle_class_label": "Bear Range",
+      "n": 14,
+      "sameday_pct": 92.9,
+      "insta_30m_pct": 7.1,
+      "avg_mae": 15.96,
+      "avg_time_min": 234,
+      "ci95": [
+        68.6,
+        98.7
+      ],
+      "data_adequate": true
+    },
+    "Jumat_BULL_RANGE": {
+      "hari": "Jumat",
+      "candle_class_label": "Bull Range",
+      "n": 16,
+      "sameday_pct": 93.8,
+      "insta_30m_pct": 6.2,
+      "avg_mae": 11.46,
+      "avg_time_min": 86,
+      "ci95": [
+        71.7,
+        98.9
+      ],
+      "data_adequate": true
+    }
+  },
+  "scoring": {
+    "description": "Bobot untuk menggabungkan sinyal menjadi skor akhir",
+    "weights": {
+      "combo_3factor": 0.55,
+      "day_class_2factor": 0.25,
+      "range_bucket": 0.1,
+      "global_base": 0.1
+    },
+    "thresholds": {
+      "TINGGI": {
+        "min": 93,
+        "color": "green",
+        "desc": "Setup optimal, sangat tinggi probabilitas TP hari ini"
+      },
+      "SEDANG": {
+        "min": 85,
+        "color": "yellow",
+        "desc": "Setup cukup baik, siapkan averaging wajar (5-15 pts)"
+      },
+      "RENDAH": {
+        "min": 75,
+        "color": "orange",
+        "desc": "Hati-hati, risiko overnight lebih tinggi dari rata-rata"
+      },
+      "WASPADA": {
+        "min": 0,
+        "color": "red",
+        "desc": "Kondisi tidak ideal, siapkan grid dalam (20+ pts)"
+      }
+    }
+  },
+  "candle_class_definitions": {
+    "BULL_BREAK": {
+      "label": "Bull Break",
+      "definisi": "Close kemarin > High D-2 (breakout naik)",
+      "karakteristik": "Momentum bullish kuat, candle sudah break resistance",
+      "tips_bom": "OHLC lebih sering, BOM cenderung stabil"
+    },
+    "BULL_RANGE": {
+      "label": "Bull Range",
+      "definisi": "Bullish tapi Close < High D-2 (tidak break)",
+      "karakteristik": "Bullish terbatas, belum konfirmasi momentum",
+      "tips_bom": "OLHC lebih dominan, bisa ada dip dulu"
+    },
+    "INSIDE": {
+      "label": "Inside Bar",
+      "definisi": "High < D-2 High DAN Low > D-2 Low (konsolidasi)",
+      "karakteristik": "Harga mengompres, potensi breakout besar",
+      "tips_bom": "MAE median terendah (1.76 pts!), sering instan TP"
+    },
+    "BEAR_RANGE": {
+      "label": "Bear Range",
+      "definisi": "Bearish tapi Close > Low D-2 (tidak break bawah)",
+      "karakteristik": "Penurunan moderat, belum breakout",
+      "tips_bom": "BOM paling lambat (avg 140 mnt), siapkan averaging"
+    },
+    "BEAR_BREAK": {
+      "label": "Bear Break",
+      "definisi": "Close kemarin < Low D-2 (breakdown ke bawah)",
+      "karakteristik": "Fake breakdown / reversal kandidat — WR TERTINGGI!",
+      "tips_bom": "Hampir selalu OHLC, harga sering bounce kuat pagi"
+    }
+  }
+}
